@@ -13,8 +13,7 @@ h1{
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0;
-    margin: 0;
-    margin-top: 30px;
+    margin: 0.5rem 0;    
 }
 p{
     color: white;
@@ -40,7 +39,6 @@ label {
     font-size: 20px;
     font-family: tahoma;
     color: aliceblue;
-    text-align: justify;
 }
 
 .comments{
