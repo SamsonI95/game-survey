@@ -1,9 +1,11 @@
 body{
     display: block;
+    box-sizing: border-box;
     background-color: #78866B;
-    width: 100%;
     height: 100vh;
-    margin: 0;
+    margin: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -12,26 +14,35 @@ h1{
     text-align: center;
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 0;
-    margin: 0.5rem 0;    
+    padding: 2rem 0;
+    width: 500px;
+    margin-left: 300px;
 }
 p{
     color: white;
     text-align: center;
+    font-size: medium;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 20px;
-}
-fieldset{
-    border: none;
     padding: 2rem 0;
+    width: 500px;
+    margin-left: 300px;
     border-bottom: 3px solid #3b3b4f;
 }
+fieldset{
+    width: 500px;
+    padding: 2rem 0;
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+    
+}
 form {
+    
+    padding: 20px;
     width: 60vw;
+    margin: auto;
+    padding-bottom: 2em;
     max-width: 500px;
     min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
 }
 label {
     display: block;
@@ -39,10 +50,7 @@ label {
     font-size: 20px;
     font-family: tahoma;
     color: aliceblue;
-}
-
-.comments{
-    text-align: justify;
+    
 }
 input{
     border: 1px solid #0a0a23;
@@ -63,6 +71,6 @@ input[type="submit"] {
     min-width: 300px;
     box-shadow: 8px;
 }
-:placeholder-shown{
-
+b{
+    color:#000;
 }
