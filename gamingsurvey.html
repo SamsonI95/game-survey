@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-      <fieldset>
+    
         <h1 id="superGAMING Survey Form">superGAMING Survey Form</h1>
         <p id="description">Taking Gaming to new heights</p>
-      </fieldset>
+      
       <form id="survey-form">
         <fieldset>
-        <label id="name-label">Name</label>
+        <label id="name-label"><b>Name</b></label>
         <label for="name"><input id="name" type="text" placeholder="Enter your name" required/> </label>
-        <label id="email-label">Email</label>
+        <label id="email-label"><b>Email</b></label>
         <label for="email"><input id="email" type="email" placeholder="Enter your Email" required></label>
-        <label id="number-label">Enter your Age(Optional) </label>
+        <label id="number-label"><b>Enter your Age(Optional)</b> </label>
         <label for="age"><input id="number" type="number" name="age" placeholder="Age" min="14" max="60"></label>
         <!-- check id="age" and maybe change it to id="number" -->
         </fieldset>
         <fieldset>
-          <label> What gamer level are you?</label>
+          <label><b>What gamer level are you?</b></label>
           <select id="dropdown">
             <option value="">(select one)</option>
               <option value="1">Newbie</option>
@@ -35,15 +35,15 @@
         </fieldset>
         <fieldset>
           <label>
-            Which Gaming platform do you use?
-          </label>
+            <b>Which Gaming platform do you use?</b>
+          </label><br>
           <label for="PC"><input id="PC" type="radio" name="console-type" value="PC">PC</label>
           <label for="PlayStation"><input id="PlayStation" type="radio" name="console-type" value="PlayStation">PlayStation</label>
           <label for="Xbox"><input id="Xbox" type="radio" name="console-type" value="Xbox">Xbox</label>
           <label for="Nintendo"><input id="Nintendo" type="radio" name="console-type" value="Nintendo">Nintendo</label>
         </fieldset>
         <fieldset>
-          <label>What genre of games do you enjoy playing?</label>
+          <label><b>What genre of games do you enjoy playing?</b></label><br>
             <label><input id="Action/Adventure" type="checkbox" value="Action/Adventure">Action/Adventure (e.g.The Legend of Zelda: Breath of the Wild )
             </label>
             <label><input id="Role-playing-(RPG)" type="checkbox" value="Role-playing (RPG)">Role-playing (RPG) (e.g.The Witcher 3: Wild Hunt)</label>
@@ -64,7 +64,7 @@
             <label><input id="Open-World/Sandbox" type="checkbox" value="Open World/Sandbox">Open World/Sandbox (e.g.Red Dead Redemption)</label>
         </fieldset>
         <fieldset>
-          <label for="comments">Any comments or suggestions?
+          <label for="comments"><b>Any comments or suggestions?</b><br>
             <textarea id="comments" name="comments" row="7" cols="40" placeholder="Enter your commenst here..." ></textarea>
         </label>
         </fieldset>
